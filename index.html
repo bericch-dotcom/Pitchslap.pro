@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PitchSlap.pro — Get Roasted by a VC, Then Get Funded.</title>
+<meta property="og:title" content="PitchSlap.pro - Get Roasted by a VC">
+<meta property="og:description" content="Upload your deck. Get brutally roasted. Then get the fixed version. 79 GHS via MoMo">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://paystack.shop">
+<style>
+:root{--bg:#0A0A0B;--card:#141416;--border:#232326;--text:#EDEDED;--muted:#8A8A8E;--accent:#FF4D4D;--green:#00FF88;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:'Geist',system-ui,sans-serif;overflow-x:hidden}
+.nav{max-width:1120px;margin:0 auto;padding:24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:700;letter-spacing:-0.02em;font-size:18px}.logo span{color:var(--accent)}
+.btn{padding:10px 18px;border:1px solid var(--border);border-radius:8px;background:#fff;color:#000;font-weight:600;font-size:14px;cursor:pointer;text-decoration:none;display:inline-block;text-align:center}
+.hero{max-width:1120px;margin:0 auto;padding:80px 24px 40px;text-align:center}
+.badge{display:inline-flex;gap:8px;padding:6px 12px;border:1px solid var(--border);border-radius:999px;font-size:12px;color:var(--muted);font-family:'Geist Mono'}
+.hero h1{font-size:64px;letter-spacing:-0.05em;line-height:0.9;margin:24px auto;max-width:700px} .hero h1 i{color:var(--accent);font-style:normal}
+.hero p{color:var(--muted);max-width:520px;margin:0 auto;font-size:18px;line-height:1.5}
+.demo{max-width:860px;margin:48px auto;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:12px}
+.demo-top{display:flex;gap:8px;padding:8px}.dot{width:10px;height:10px;border-radius:50%;background:#222}
+.demo-body{padding:32px;background:#0E0E10;border-radius:12px;margin-top:8px}
+.upload{border:1px dashed #333;border-radius:12px;padding:40px;text-align:center;cursor:pointer}
+.upload:hover{border-color:var(--accent)}
+.roast{display:none;margin-top:24px;text-align:left;white-space:pre-wrap;line-height:1.6}
+.pricing{max-width:1120px;margin:80px auto;padding:0 24px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+.price-card{border:1px solid var(--border);background:var(--card);border-radius:16px;padding:24px}
+.price-card.pro{border-color:var(--accent);background:linear-gradient(180deg,#1A1212, #141416)}
+.footer{max-width:1120px;margin:80px auto 0;padding:32px 24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;color:var(--muted);font-size:13px;font-family:'Geist Mono'}
+@media(max-width:800px){.hero h1{font-size:40px}.pricing{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="nav">
+<div class="logo">PitchSlap<span>.pro</span></div>
+<button class="btn" onclick="document.getElementById('app').scrollIntoView({behavior:'smooth'})">Roast My Deck →</button>
+</div>
+<div class="hero">
+<div class="badge">● LIVE • 2,417 decks roasted this week • GHANA 🇬🇭</div>
+<h1>Your pitch deck is <i>mid.</i> Let's fix it before VCs ghost you.</h1>
+<p>Upload your deck. Get brutally roasted like a real Sequoia partner. Then get the fixed version + cold email that actually gets replies.</p>
+</div>
+<div class="demo" id="app">
+<div class="demo-top"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+<div class="demo-body">
+<div class="upload" id="drop">
+<div style="font-size:32px">📄</div>
+<div style="font-weight:600;margin-top:12px">Drop your pitch deck (PDF)</div>
+<div style="color:var(--muted);font-size:13px;margin-top:6px">or click to upload • no signup required for roast</div>
+<input type="file" id="file" hidden accept=".pdf,.pptx,.png,.jpg">
+</div>
+<div class="roast" id="roast"></div>
+</div>
+</div>
+<div class="pricing">
+<div class="price-card"><div style="font-family:'Geist Mono';font-size:12px;color:var(--muted)">FREE</div><div style="font-size:28px;font-weight:700;margin:8px 0">0 GHS</div><div style="color:var(--muted);font-size:14px">One brutal roast. No fix. Good for pain.</div></div>
+<div class="price-card pro"><div style="font-family:'Geist Mono';font-size:12px;color:var(--accent)">PRO • GHANA LAUNCH</div><div style="font-size:28px;font-weight:700;margin:8px 0">79 GHS <span style="font-size:14px;color:var(--muted);text-decoration:line-through">149 GHS</span></div><div style="color:var(--muted);font-size:14px">Roast + Fixed Deck + Investor Email + Share Card. Lifetime. MoMo via Paystack.</div><a href="https://paystack.shop/pay/pitchslap-pro" class="btn" style="width:100%;margin-top:16px;background:var(--accent);color:#fff;border:none;display:block">Get PRO Roast — 79 GHS →</a><div style="font-family:'Geist Mono';font-size:11px;color:var(--muted);margin-top:8px;text-align:center">🔒 Secure MoMo via Paystack • MTN / Vodafone / AT</div></div>
+<div class="price-card"><div style="font-family:'Geist Mono';font-size:12px;color:var(--muted)">VC MODE</div><div style="font-size:28px;font-weight:700;margin:8px 0">249 GHS</div><div style="color:var(--muted);font-size:14px">Everything in Pro + Loom video roast + intro to 3 angels.</div><a href="https://paystack.shop/pay/pitchslap-pro" class="btn" style="width:100%;margin-top:16px;background:#fff;color:#000;border:none;display:block">Join Waitlist</a></div>
+</div>
+<div class="footer">
+<div>Built by Bericch — Kumasi, GH → World</div>
+<div>© 2026 PitchSlap.pro</div>
+</div>
+<script>
+const drop=document.getElementById('drop'), file=document.getElementById('file'), roast=document.getElementById('roast');
+drop.onclick=()=>file.click();
+file.onchange=()=>{
+ roast.style.display='block';
+ roast.innerHTML=`<span style="color:#8A8A8E;font-family:Geist Mono;font-size:12px">ANALYZING DECK...</span>\n\n<span style="color:var(--accent)">[SLAP #1]</span> Slide 1: "Revolutionary AI Platform" — bro, every deck says this. What do you ACTUALLY do in one sentence?\n\n<span style="color:var(--accent)">[SLAP #2]</span> No traction slide. VCs don't fund ideas, they fund proof.\n\n<span style="color:#00FF88">--- FIXED VERSION READY (PRO) ---</span>\n✓ New Hook generated\n✓ Pro structure + investor email generated.\n\n<a href="https://paystack.shop/pay/pitchslap-pro" style="display:inline-block;margin-top:16px;padding:10px 18px;border-radius:8px;background:#FF4D4D;color:#fff;font-weight:600;font-size:14px;text-decoration:none">Unlock Fix for 79 GHS →</a>`;
+ drop.style.display='none';
+}
+</script>
+</body>
+</html>
