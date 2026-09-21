@@ -31,7 +31,7 @@ https://pitchslap-pro.netlify.app
 
 ## Contact
 Instagram: @berichh20
-Email: [add your email]
+Email: [theophilusopambour20@gmail.com]
 Built with ❤️ in Kumasi
 
 ## How to run locally
